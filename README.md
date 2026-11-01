@@ -18,7 +18,7 @@ Repositori ini berisi rangkaian praktikum terbimbing, pengujian keamanan, serta 
 
 ## Cara Instalasi & Menjalankan Proyek
 1. Clone repositori ini ke komputer lokal.
-2. Jalankan perintah `npm install` untuk mengunduh seluruh dependensi (`express`, `ejs`, `mysql2`, `dotenv`)[cite: 26].
+2. Jalankan perintah `npm install` untuk mengunduh seluruh dependensi (`express`, `ejs`, `mysql2`, `dotenv`).
 3. Buat file `.env` berdasarkan contoh file `.env.example` dan sesuaikan konfigurasi database lokal Anda.
 4. Jalankan server mode pengembangan dengan perintah:
    ```bash
