@@ -6,7 +6,7 @@ Repositori ini berisi rangkaian praktikum terbimbing, pengujian keamanan, serta 
 
 | ID Uji | Fitur / Operasi | Target Endpoint URL | HTTP Method | Skenario Pengujian | Hasil yang Diharapkan | Status | Bukti Tangkapan Layar |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TC-01** | Koneksi Pool | App Startup | - | Server dijalankan pertama kali | Terhubung ke MySQL Pool tanpa error[cite: 17] | Pass | ![Bukti TC-01](docs/screenshots/01-db-pool-connection.png) |
+| **TC-01** | Koneksi Pool | App Startup | - | Server dijalankan pertama kali | Terhubung ke MySQL Pool tanpa error | Pass | ![Bukti TC-01](docs/screenshots/01-db-pool-connection.png) |
 | **TC-02** | Read (All) | `/produk` | GET | Akses halaman daftar produk | Menampilkan seluruh record tabel MySQL ke antarmuka EJS | Pass | ![Bukti TC-02](docs/screenshots/02-read-select-render.png) |
 | **TC-03** | Create | `/produk/tambah` | POST | Submit formulir produk baru | Data tersimpan di DB, Dev Tools mencatat 302 Redirect | Pass | ![Bukti TC-03](docs/screenshots/03-create-prg.png) |
 | **TC-04** | Update | `/produk/edit/:id` | POST | Mengubah harga & stok produk | Nilai kolom pada baris MySQL berubah sesuai input baru | Pass | ![Bukti TC-04](docs/screenshots/04-update.png) |
